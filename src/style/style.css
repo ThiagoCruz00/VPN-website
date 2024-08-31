@@ -11,7 +11,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 header {
@@ -91,9 +91,7 @@ nav > a:hover {
   text-align: left;
   justify-content: center;
 
-  margin-left: 150px;
-  margin-right: 83px;
-  margin-top: 89px;
+  margin: 80px 100px 0px 100px;
   gap: 41px;
 }
 
@@ -115,7 +113,10 @@ nav > a:hover {
 }
 
 .section-content > button {
-  margin-right: 1040px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 250px;
   height: 60px;
   border-radius: 10px;
@@ -141,27 +142,37 @@ nav > a:hover {
   justify-content: space-around;
   text-align: center;
 
-  width: 1140px;
+  width: 87%;
   height: 200px;
   border-radius: 10px;
   /* border: 1px solid #000; */
   align-items: center;
-  margin-left: 105px;
-  margin-right: 150px;
-  padding-right: 100px;
-
+  margin: 100px;
+  /* padding-right: 100px; */
   box-shadow: 0px 20px 19px 10px rgba(13, 16, 37, 0.1);
 }
 
-.img-content > div {
+.bola-container {
   display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img-uno {
   width: 55px;
   height: 55px;
-  border-radius: 30px;
   background-color: #ffecec;
+  border-radius: 30px;
+  padding-left: 15px;
+
+  display: flex;
+  align-items: center;
   text-align: center;
-  gap: 30px;
-  padding: 15px;
+}
+
+.img-uno > img {
+  width: 25px;
+  height: 25px;
 }
 
 .img-content > div > h3 {
