@@ -679,14 +679,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  header {
+
+    header {
     display: flex;
     justify-content: unset;
     align-items: center;
     text-align: center;
     margin: 0;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 10px;
     gap: 25px;
   }
 
@@ -751,29 +751,34 @@ footer {
   }
 
   .section-content {
-    width: 277px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: 82%;
+    
   }
 
   .about-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-
     margin: 0;
-    margin-right: 52px;
   }
 
   .section-content > h2 {
     padding-top: 60px;
+    font-size: 22px;
+  }
 
-    font-size: 24px;
+  .section-content > p{
+    font-size: 14px;
+    width: 82%;
   }
 
   .about-container > img {
-    width: 280px;
+    display: flex;
+    align-items: center;
+    width: 84%;
     height: auto;
   }
 
@@ -801,47 +806,56 @@ footer {
 
   .img-content {
     display: flex;
-    margin-top: 50px;
-    gap: 20px;
-    text-align: center;
-    justify-content: space-between;
-
-    width: 310px;
-    height: 120px;
-    border-radius: 10px;
-    /* border: 1px solid #000; */
+    gap: 30px;
+    justify-content: center;
     align-items: center;
-    margin-left: 6px;
-    margin-right: 0px;
-    padding-right: 60px;
-    padding-left: 15px;
+    
+    width: 81%;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 30px;
+    /* border: 1px solid #000; */
 
     box-shadow: 0px 20px 20px 0px rgba(13, 16, 37, 0.1);
   }
 
-  .img-content > div {
+  .img-uno {
     display: flex;
-    width: 25px;
-    height: 25px;
-    border-radius: 30px;
-    background-color: #ffecec;
+    align-items: center;
     text-align: center;
-    gap: 5px;
-    padding: 0px;
+    
+    background-color: #ffecec;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.img-uno > img{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    
   }
 
-  .img-content > div > h3 {
+  .bola-container{
+    display: flex;
+    gap: 2px;
+  }
+
+  .text-container > h3 {
     color: #0b132a;
     font-weight: 700;
     font-size: 12px;
-    flex-direction: column;
+
   }
 
-  .img-content > div > h3 > p {
+  .text-container > p {
     color: #4f5665;
     font-weight: 400;
     font-size: 10px;
-    flex-direction: column;
+
     text-align: center;
   }
 }
