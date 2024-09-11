@@ -933,6 +933,7 @@ footer {
     flex-direction: column;
 
     margin-left: 88px;
+    margin-bottom: 50px;
   }
 
   .a-content,
@@ -1012,7 +1013,7 @@ footer {
   .network-container>h1 {
     padding: 10px;
 
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 28px;
   }
 
@@ -1051,7 +1052,7 @@ footer {
   .comments-container > .title-content > h1{
     font-size: 28px;
     padding-bottom: 20px;
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   .comments-container > main {
