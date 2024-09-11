@@ -29,12 +29,12 @@ header {
   font-size: 20px;
 }
 
-.logo-container > h1 {
+.logo-container>h1 {
   font-size: 20px;
   font-weight: 500;
 }
 
-h1 > span {
+h1>span {
   font-weight: bold;
 }
 
@@ -44,14 +44,14 @@ nav {
   gap: 37px;
 }
 
-nav > a {
+nav>a {
   color: #4f5665;
   font-size: 16px;
 
   transition: 0.3s ease-in-out;
 }
 
-nav > a:hover {
+nav>a:hover {
   color: #0b132a;
   transform: scale(1.1);
 }
@@ -64,11 +64,11 @@ nav > a:hover {
   align-items: center;
 }
 
-.access-container > a {
+.access-container>a {
   color: black;
 }
 
-.access-container > button {
+.access-container>button {
   font-size: 16px;
   border-radius: 50px;
   border: 1px solid #f53855;
@@ -81,7 +81,7 @@ nav > a:hover {
   transition: 0.3s ease-in-out;
 }
 
-.access-container > button:hover {
+.access-container>button:hover {
   background-color: #f53855;
   color: #fff;
 }
@@ -99,20 +99,20 @@ nav > a:hover {
   width: 555px;
 }
 
-.section-content > h2 {
+.section-content>h2 {
   font-weight: 500;
   font-size: 50px;
   margin-bottom: 25px;
 }
 
-.section-content > p {
+.section-content>p {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 50px;
   color: #4f5665;
 }
 
-.section-content > button {
+.section-content>button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +130,7 @@ nav > a:hover {
   transition: 0.3s ease-in-out;
 }
 
-.section-content > button:hover {
+.section-content>button:hover {
   background-color: #fff;
   color: #f53855;
   border: 1px solid #f53855;
@@ -170,19 +170,19 @@ nav > a:hover {
   text-align: center;
 }
 
-.img-uno > img {
+.img-uno>img {
   width: 25px;
   height: 25px;
 }
 
-.img-content > div > h3 {
+.img-content>div>h3 {
   color: #0b132a;
   font-weight: 700;
   font-size: 18px;
   flex-direction: column;
 }
 
-.img-content > div > h3 > p {
+.img-content>div>h3>p {
   color: #4f5665;
   font-weight: 400;
   font-size: 14px;
@@ -190,7 +190,7 @@ nav > a:hover {
   text-align: center;
 }
 
-.quality-container > main {
+.quality-container>main {
   display: flex;
   margin-top: 95px;
   margin-left: 184px;
@@ -202,18 +202,18 @@ nav > a:hover {
   align-items: center;
 }
 
-.quality-container > main > div > .verification-content > img {
+.quality-container>main>div>.verification-content>img {
   width: 24px;
   height: 24px;
 }
 
-.quality-container > main > div > h1 {
+.quality-container>main>div>h1 {
   font-size: 35px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.quality-container > main > div > p {
+.quality-container>main>div>p {
   font-size: 16px;
   font-weight: 400;
   color: #4f5665;
@@ -221,7 +221,7 @@ nav > a:hover {
   margin-bottom: 30px;
 }
 
-.quality-container > div {
+.quality-container>div {
   display: flex;
   align-items: center;
   text-align: center;
@@ -240,7 +240,7 @@ nav > a:hover {
   color: #4f5665;
 }
 
-.verification-content > div > img {
+.verification-content>div>img {
   width: 20px;
   height: 20px;
 }
@@ -250,14 +250,14 @@ nav > a:hover {
   padding: 80px;
 }
 
-.price-container > h1 {
+.price-container>h1 {
   display: flex;
   justify-content: center;
   font-size: 35px;
   font-weight: 500;
 }
 
-.price-container > div > p {
+.price-container>div>p {
   font-size: 16px;
   font-weight: 400;
   color: #4f5665;
@@ -266,14 +266,14 @@ nav > a:hover {
   margin-bottom: 90px;
 }
 
-.price-container > div {
+.price-container>div {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.price-container > article {
+.price-container>article {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -283,7 +283,7 @@ nav > a:hover {
     margin-right: 174px; */
 }
 
-.price-container > article > div {
+.price-container>article>div {
   border: 2px solid #dddddd;
   border-radius: 10px;
   background-color: #fff;
@@ -302,25 +302,25 @@ nav > a:hover {
     background-color 0.3s ease-in-out;
 }
 
-.price-container > article > div:hover {
+.price-container>article>div:hover {
   border: 1px solid #f53855;
   transform: scale(1.05);
 }
 
-.price-container > article > div > img {
+.price-container>article>div>img {
   width: 145px;
   height: 165px;
   padding-bottom: 30px;
 }
 
-.price-container > article > div > h4 {
+.price-container>article>div>h4 {
   font-weight: 500;
   font-size: 18px;
   color: #0b132a;
   padding-bottom: 30px;
 }
 
-.price-container > article > div > ul {
+.price-container>article>div>ul {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -330,7 +330,7 @@ nav > a:hover {
   color: #4f5665;
 }
 
-.price-container > article > div > ul > li {
+.price-container>article>div>ul>li {
   display: flex;
   text-align: center;
   align-items: center;
@@ -338,7 +338,7 @@ nav > a:hover {
   gap: 10px;
 }
 
-.price-container > article > div > .Free-content {
+.price-container>article>div>.Free-content {
   padding-top: 100px;
   padding-bottom: 20px;
 
@@ -347,7 +347,7 @@ nav > a:hover {
   color: #0b132a;
 }
 
-.price-container > article > div > .Standard-content {
+.price-container>article>div>.Standard-content {
   padding-top: 65px;
   padding-bottom: 20px;
 
@@ -356,7 +356,7 @@ nav > a:hover {
   color: #0b132a;
 }
 
-.price-container > article > div > .Premium-content {
+.price-container>article>div>.Premium-content {
   padding-top: 28px;
   padding-bottom: 20px;
 
@@ -365,15 +365,15 @@ nav > a:hover {
   color: #0b132a;
 }
 
-.price-container > article > div > .Standard-content > h5 > span {
+.price-container>article>div>.Standard-content>h5>span {
   color: #4f5665;
 }
 
-.price-container > article > div > .Premium-content > h5 > span {
+.price-container>article>div>.Premium-content>h5>span {
   color: #4f5665;
 }
 
-.price-container article > div > button {
+.price-container article>div>button {
   font-size: 16px;
   border-radius: 50px;
   border: 1px solid #f53855;
@@ -386,7 +386,7 @@ nav > a:hover {
   transition: 0.3s ease-in-out;
 }
 
-.price-container article > div > button:hover {
+.price-container article>div>button:hover {
   background-color: #f53855;
   color: #fff;
   transform: scale(1.1);
@@ -402,13 +402,13 @@ nav > a:hover {
   align-items: center;
 }
 
-.network-container > h1 {
+.network-container>h1 {
   font-weight: 500;
   font-size: 35px;
   color: #0b132a;
 }
 
-.network-container > p {
+.network-container>p {
   font-size: 16px;
   color: #4f5665;
   font-weight: 400;
@@ -417,11 +417,11 @@ nav > a:hover {
   padding-bottom: 150px;
 }
 
-.network-container > p > span {
+.network-container>p>span {
   font-weight: bold;
 }
 
-.network-container > img:first-child {
+.network-container>img:first-child {
   padding-bottom: 35px;
 }
 
@@ -435,7 +435,7 @@ nav > a:hover {
   background-color: #fafafa;
 }
 
-.comments-container > main {
+.comments-container>main {
   display: flex;
   justify-content: space-around;
   gap: 40px;
@@ -449,19 +449,19 @@ nav > a:hover {
   margin-top: 50px;
 }
 
-.comments-container > .title-content > h1 {
+.comments-container>.title-content>h1 {
   color: #0b132a;
   font-weight: 500;
   font-size: 35px;
 }
 
-.comments-container > .title-content > p {
+.comments-container>.title-content>p {
   font-weight: 400;
   font-size: 16px;
   color: #4f5665;
 }
 
-.comments-container > main > article {
+.comments-container>main>article {
   width: 410px;
   height: 220px;
   background: #ffffff;
@@ -475,11 +475,11 @@ nav > a:hover {
     background-color 0.3s ease-in-out;
 }
 
-.comments-container > main > article:hover {
+.comments-container>main>article:hover {
   border: 2px solid #f53855;
 }
 
-.comments-container > main > article > div {
+.comments-container>main>article>div {
   display: flex;
   align-items: center;
   text-align: center;
@@ -488,34 +488,34 @@ nav > a:hover {
   margin-bottom: 20px;
 }
 
-.comments-container > main > article > div > h3 {
+.comments-container>main>article>div>h3 {
   font-size: 18px;
   font-weight: 500;
 }
 
-.comments-container > main > article > div > h3 > p {
+.comments-container>main>article>div>h3>p {
   font-size: 14px;
   font-weight: 400;
   color: #4f5665;
 }
 
-.comments-container > main > article > div > aside {
+.comments-container>main>article>div>aside {
   display: flex;
   gap: 10px;
   margin-left: 90px;
 }
 
-.comments-container > main > article > p {
+.comments-container>main>article>p {
   font-weight: 400;
   font-size: 16px;
   color: #0b132a;
 }
 
-.comments-container > img {
+.comments-container>img {
   margin-top: 74px;
 }
 
-.comments-container > article {
+.comments-container>article {
   display: flex;
   gap: 1000px;
 
@@ -523,23 +523,23 @@ nav > a:hover {
   margin-bottom: 70px;
 }
 
-.comments-container > article > div {
+.comments-container>article>div {
   display: flex;
   gap: 20px;
 }
 
-.comments-container > article > div > img {
+.comments-container>article>div>img {
   height: 35px;
   width: 35px;
 }
 
-.comments-container > article > div > img:last-child {
+.comments-container>article>div>img:last-child {
   background-color: #f53838;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.comments-container > article > div > img:first-child {
+.comments-container>article>div>img:first-child {
   border: 2px solid #f53838;
   border-radius: 50%;
   cursor: pointer;
@@ -561,7 +561,7 @@ nav > a:hover {
   box-shadow: 0px 20px 19px 10px rgba(13, 16, 37, 0.1);
 }
 
-.subscribe-content > h1 {
+.subscribe-content>h1 {
   font-weight: 500;
   font-size: 35px;
   color: #0b132a;
@@ -570,7 +570,7 @@ nav > a:hover {
   flex-direction: column;
 }
 
-.subscribe-content > h1 > p {
+.subscribe-content>h1>p {
   font-weight: 400;
   font-size: 16px;
   color: #4f5665;
@@ -578,7 +578,7 @@ nav > a:hover {
   padding-top: 20px;
 }
 
-.subscribe-content > button {
+.subscribe-content>button {
   width: 350px;
   height: 60px;
   background: #f53838;
@@ -593,7 +593,7 @@ nav > a:hover {
   transition: 0.3s ease-in-out;
 }
 
-.subscribe-content > button:hover {
+.subscribe-content>button:hover {
   background-color: #fff;
   color: #f53838;
   border: 1px solid #f53838;
@@ -615,12 +615,12 @@ footer {
   flex-direction: column;
 }
 
-.support-content > article {
+.support-content>article {
   display: flex;
   cursor: pointer;
 }
 
-.support-content > main {
+.support-content>main {
   display: flex;
   text-align: center;
   align-items: center;
@@ -632,17 +632,17 @@ footer {
   width: 32px;
 }
 
-.support-content > main > h2 {
+.support-content>main>h2 {
   font-weight: 500;
   font-size: 18px;
   color: #0b132a;
 }
 
-.support-content > main > h2 > span {
+.support-content>main>h2>span {
   font-weight: bold;
 }
 
-.support-content > p {
+.support-content>p {
   font-weight: 400;
   font-size: 13px;
   color: #4f5665;
@@ -652,7 +652,7 @@ footer {
   width: 271px;
 }
 
-.support-content > img {
+.support-content>img {
   height: 34px;
   width: 34px;
 }
@@ -662,7 +662,7 @@ footer {
   gap: 120px;
 }
 
-.ul-container > ul > h3 {
+.ul-container>ul>h3 {
   font-weight: 500;
   font-size: 18px;
   color: #0b132a;
@@ -670,7 +670,7 @@ footer {
   padding-bottom: 20px;
 }
 
-.ul-container > ul > li {
+.ul-container>ul>li {
   font-weight: 400;
   font-size: 16px;
   color: #4f5665;
@@ -702,12 +702,12 @@ footer {
     margin-right: 0;
   }
 
-  .logo-container > img {
+  .logo-container>img {
     width: 30px;
     height: 30px;
   }
 
-  .logo-container > h1 {
+  .logo-container>h1 {
     font-size: 16px;
   }
 
@@ -716,7 +716,7 @@ footer {
     margin: 0;
   }
 
-  h1 > span {
+  h1>span {
     font-weight: bold;
   }
 
@@ -725,19 +725,19 @@ footer {
     gap: 10px;
   }
 
-  .access-container > a {
+  .access-container>a {
     font-size: 14px;
     color: #4f5665;
 
     transition: 0.5s ease-in-out;
   }
 
-  .access-container > a:hover {
+  .access-container>a:hover {
     color: #0b132a;
     transform: scale(1.1);
   }
 
-  .access-container > button {
+  .access-container>button {
     font-size: 14px;
     border-radius: 50px;
     border: 1px solid #f53855;
@@ -750,7 +750,7 @@ footer {
     transition: 0.3s ease-in-out;
   }
 
-  .access-container > button:hover {
+  .access-container>button:hover {
     background-color: #f53855;
     color: #fff;
   }
@@ -770,24 +770,24 @@ footer {
     margin: 0;
   }
 
-  .section-content > h2 {
+  .section-content>h2 {
     padding-top: 60px;
     font-size: 22px;
   }
 
-  .section-content > p {
+  .section-content>p {
     font-size: 14px;
     width: 82%;
   }
 
-  .about-container > img {
+  .about-container>img {
     display: flex;
     align-items: center;
     width: 84%;
     height: auto;
   }
 
-  .section-content > button {
+  .section-content>button {
     margin-bottom: 20px;
     margin-right: 0;
     width: 250px;
@@ -803,7 +803,7 @@ footer {
     transition: 0.3s ease-in-out;
   }
 
-  .section-content > button:hover {
+  .section-content>button:hover {
     background-color: #fff;
     color: #f53855;
     border: 1px solid #f53855;
@@ -840,7 +840,7 @@ footer {
     height: 40px;
   }
 
-  .img-uno > img {
+  .img-uno>img {
     display: flex;
     gap: 4px;
 
@@ -854,13 +854,13 @@ footer {
     gap: 9px;
   }
 
-  .text-container > h3 {
+  .text-container>h3 {
     color: #0b132a;
     font-weight: 700;
     font-size: 12px;
   }
 
-  .text-container > p {
+  .text-container>p {
     color: #4f5665;
     font-weight: 400;
     font-size: 10px;
@@ -876,7 +876,7 @@ footer {
     padding: 0;
   }
 
-  .quality-container > main {
+  .quality-container>main {
     display: flex;
     flex-direction: column;
     justify-content: unset;
@@ -885,7 +885,7 @@ footer {
     margin: 0;
   }
 
-  .quality-container > main > img {
+  .quality-container>main>img {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -894,20 +894,20 @@ footer {
     width: 80%;
   }
 
-  .quality-container > main > div > .verification-content > img {
+  .quality-container>main>div>.verification-content>img {
     width: 30px;
     height: 30px;
   }
 
-  .quality-container > main > div > h1 {
+  .quality-container>main>div>h1 {
     text-align: center;
 
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
     margin-bottom: 20px;
   }
 
-  .quality-container > main > div > p {
+  .quality-container>main>div>p {
     text-align: center;
 
     font-size: 14px;
@@ -917,7 +917,7 @@ footer {
     margin-bottom: 30px;
   }
 
-  .quality-container > div {
+  .quality-container>div {
     display: flex;
     align-items: center;
     text-align: center;
@@ -945,7 +945,7 @@ footer {
     color: #4f5665;
   }
 
-  .verification-content > div > img {
+  .verification-content>div>img {
     width: 20px;
     height: 20px;
   }
@@ -958,17 +958,17 @@ footer {
     padding: 50px;
   }
 
-  .price-container > div {
+  .price-container>div {
     text-align: center;
     width: 100%;
   }
 
-  .price-container > article {
+  .price-container>article {
     display: flex;
     flex-direction: column;
   }
 
-  .price-container > article > div {
+  .price-container>article>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -978,19 +978,172 @@ footer {
     padding-bottom: 20px;
   }
 
-  .price-container > article > div > img {
+  .price-container>article>div>img {
     display: none;
   }
 
-  .price-container > article > div > .Standard-content {
+  .price-container>article>div>.Standard-content {
     padding-top: 10px;
   }
 
-  .price-container > article > div > h4 {
+  .price-container>article>div>h4 {
     padding-top: 20px;
   }
 
-  .price-container > div > p {
+  .price-container>div>p {
     margin-bottom: 50px;
   }
+
+  .network-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .network-container>h1 {
+    padding: 10px;
+
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  .network-container>p {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .network-container>img {
+    width: 93%;
+
+    padding: 10px;
+  }
+
+  /* Estilo geral para o contêiner principal */
+.comments-container {
+  width: 100%; /* Garante que o contêiner ocupe a largura total disponível */
+  overflow: hidden; /* Esconde qualquer rolagem fora do contêiner principal */
+}
+
+/* Estilo para o título e descrição */
+.comments-container > .title-content {
+  text-align: center; /* Centraliza o título e a descrição */
+  padding: 20px; /* Adiciona espaçamento ao redor do título e descrição */
+}
+
+.comments-container > .title-content > h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.comments-container > .title-content > p {
+  margin: 0;
+  font-size: 16px;
+  color: #666; /* Cor do texto secundário */
+}
+
+/* Estilo para o contêiner de rolagem horizontal */
+.comments-container > main {
+  display: flex; /* Usa Flexbox para alinhar os artigos horizontalmente */
+  overflow-x: auto; /* Permite rolagem horizontal */
+  scroll-snap-type: x mandatory; /* Alinhamento de snap horizontal obrigatório */
+  -webkit-overflow-scrolling: touch; /* Suaviza a rolagem em dispositivos móveis */
+  gap: 20px; /* Espaçamento entre os artigos */
+  padding: 10px 0; /* Adiciona espaçamento acima e abaixo do contêiner */
+  align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+/* Estilo para cada artigo */
+.comments-container > main > article {
+  flex: 0 0 auto; /* Impede que os artigos se estiquem */
+  scroll-snap-align: start; /* Alinha o início dos artigos no snap */
+  width: 300px; /* Define uma largura fixa para os artigos */
+  background: #f9f9f9; /* Fundo claro para visualização */
+  padding: 20px; /* Espaçamento interno para os artigos */
+  border-radius: 10px; /* Bordas arredondadas para um visual mais agradável */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex; /* Usa Flexbox para o conteúdo interno */
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
+}
+
+/* Estilo para o conteúdo interno de cada artigo */
+.comments-container > main > article > div {
+  display: flex; /* Alinha o conteúdo do cabeçalho do artigo horizontalmente */
+  align-items: center;
+  gap: 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para a imagem do usuário */
+.comments-container > main > article > div > img {
+  width: 60px; /* Largura fixa para a imagem do usuário */
+  height: 60px; /* Altura fixa para a imagem do usuário */
+  border-radius: 50%; /* Imagem circular */
+}
+
+/* Estilo para o nome e localização do usuário */
+.comments-container > main > article > h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Estilo para o texto da localização */
+.comments-container > main > article > h3 > p {
+  margin: 0;
+  font-size: 14px;
+  color: #666; /* Cor do texto secundário */
+}
+
+/* Estilo para a seção de avaliação */
+.comments-container > main > article > aside {
+  display: flex; /* Alinha a avaliação e a estrela */
+  align-items: center;
+  gap: 5px; /* Espaçamento entre a avaliação e a estrela */
+}
+
+/* Estilo para a imagem da estrela */
+.comments-container > main > article > aside > img {
+  width: 20px; /* Largura fixa para a estrela */
+  height: 20px; /* Altura fixa para a estrela */
+}
+
+  /* .comments-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .title-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 24%;
+    margin: 0;
+    padding: 0;
+  } */
+
+  
+
+  /* .comments-container > .title-content > h1{
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .comments-container > main {
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .comments-container > main > article > img{
+    scroll-snap-align: center;
+  } */
 }
