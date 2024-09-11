@@ -961,12 +961,13 @@ footer {
   .price-container>div {
     text-align: center;
     width: 100%;
-    
+
   }
 
   .price-container>article {
     display: flex;
     flex-direction: column;
+    
   }
 
   .price-container>article>div {
