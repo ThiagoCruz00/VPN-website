@@ -11,7 +11,7 @@
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 header {
@@ -683,6 +683,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    overflow-x: hidden;
   }
 
   header {
@@ -902,9 +904,10 @@ footer {
   .quality-container>main>div>h1 {
     text-align: center;
 
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 500;
     margin-bottom: 20px;
+    padding: 0px 30px;
   }
 
   .quality-container>main>div>p {
@@ -915,6 +918,7 @@ footer {
     color: #4f5665;
 
     margin-bottom: 30px;
+    padding: 0px 35px;
   }
 
   .quality-container>div {
@@ -955,19 +959,17 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px 0px;
   }
 
   .price-container>div {
     text-align: center;
     width: 100%;
-
   }
 
   .price-container>article {
     display: flex;
     flex-direction: column;
-    
   }
 
   .price-container>article>div {
@@ -994,6 +996,7 @@ footer {
 
   .price-container>div>p {
     margin-bottom: 50px;
+    padding: 0px 15px;
   }
 
   .network-container {
@@ -1024,105 +1027,7 @@ footer {
     padding: 10px;
   }
 
-  /* Estilo geral para o contêiner principal */
-.comments-container {
-  width: 100%; /* Garante que o contêiner ocupe a largura total disponível */
-  overflow: hidden; /* Esconde qualquer rolagem fora do contêiner principal */
-}
-
-/* Estilo para o título e descrição */
-.comments-container > .title-content {
-  text-align: center; /* Centraliza o título e a descrição */
-  padding: 20px; /* Adiciona espaçamento ao redor do título e descrição */
-}
-
-.comments-container > .title-content > h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.comments-container > .title-content > p {
-  margin: 0;
-  font-size: 16px;
-  color: #666; /* Cor do texto secundário */
-}
-
-/* Estilo para o contêiner de rolagem horizontal */
-.comments-container > main {
-  display: flex; /* Usa Flexbox para alinhar os artigos horizontalmente */
-  overflow-x: auto; /* Permite rolagem horizontal */
-  -webkit-overflow-scrolling: touch; /* Suaviza a rolagem em dispositivos móveis */
-  scroll-snap-type: x mandatory; /* Alinhamento de snap horizontal obrigatório */
-  gap: 20px; /* Espaçamento entre os artigos */
-  padding: 10px 0; /* Adiciona espaçamento acima e abaixo do contêiner */
-  align-items: flex-start; /* Alinha os itens ao topo */
-}
-
-/* Adiciona um estilo visual de scrollbar para navegadores que suportam */
-.comments-container > main::-webkit-scrollbar {
-  height: 8px; /* Altura da barra de rolagem horizontal */
-}
-
-.comments-container > main::-webkit-scrollbar-thumb {
-  background-color: #ccc; /* Cor do "polegar" da barra de rolagem */
-  border-radius: 4px; /* Bordas arredondadas para o polegar */
-}
-
-/* Estilo para cada artigo */
-.comments-container > main > article {
-  flex: 0 0 auto; /* Impede que os artigos se estiquem */
-  scroll-snap-align: start; /* Alinha o início dos artigos no snap */
-  width: 300px; /* Define uma largura fixa para os artigos */
-  background: #f9f9f9; /* Fundo claro para visualização */
-  padding: 20px; /* Espaçamento interno para os artigos */
-  border-radius: 10px; /* Bordas arredondadas para um visual mais agradável */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  display: flex; /* Usa Flexbox para o conteúdo interno */
-  flex-direction: column; /* Alinha o conteúdo verticalmente */
-}
-
-/* Estilo para o conteúdo interno de cada artigo */
-.comments-container > main > article > div {
-  display: flex; /* Alinha o conteúdo do cabeçalho do artigo horizontalmente */
-  align-items: center;
-  gap: 10px; /* Espaçamento entre os itens */
-}
-
-/* Estilo para a imagem do usuário */
-.comments-container > main > article > div > img {
-  width: 60px; /* Largura fixa para a imagem do usuário */
-  height: 60px; /* Altura fixa para a imagem do usuário */
-  border-radius: 50%; /* Imagem circular */
-}
-
-/* Estilo para o nome e localização do usuário */
-.comments-container > main > article > h3 {
-  font-size: 18px;
-  margin: 0;
-}
-
-/* Estilo para o texto da localização */
-.comments-container > main > article > h3 > p {
-  margin: 0;
-  font-size: 14px;
-  color: #666; /* Cor do texto secundário */
-}
-
-/* Estilo para a seção de avaliação */
-.comments-container > main > article > aside {
-  display: flex; /* Alinha a avaliação e a estrela */
-  align-items: center;
-  gap: 5px; /* Espaçamento entre a avaliação e a estrela */
-}
-
-/* Estilo para a imagem da estrela */
-.comments-container > main > article > aside > img {
-  width: 20px; /* Largura fixa para a estrela */
-  height: 20px; /* Altura fixa para a estrela */
-}
-
-
-  /* .comments-container {
+  .comments-container {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -1138,25 +1043,92 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    width: 24%;
+    width: 80%;
     margin: 0;
     padding: 0;
-  } */
+  } 
 
-  
-
-  /* .comments-container > .title-content > h1{
+  .comments-container > .title-content > h1{
     font-size: 28px;
     padding-bottom: 20px;
     padding-top: 40px;
   }
 
   .comments-container > main {
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 0px;
+    margin: 0;
   }
   
-  .comments-container > main > article > img{
-    scroll-snap-align: center;
-  } */
+  .comments-container > main > article{
+    width: 353px;
+    height: 270px;
+  }
+
+  .comments-container > article{
+    display: none;
+  }
+
+  .subscribe-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+
+    width: 92%;
+    height: 110px;
+
+
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  .subscribe-content > h1{
+    font-size: 16px;
+  }
+
+  .subscribe-content>h1>p{
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .subscribe-content > button{
+    width: 165px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 55px 0px;
+    margin: 0;
+  }
+
+  .support-content{
+    display: flex;
+    align-items: center;
+  }
+
+  .support-content > main{
+    display: flex;
+    justify-content: end;
+  }
+
+  .ul-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 35px 30px 35px;
+  }
+
+  .support-content>p {
+    padding-bottom: 25px;
+  }
 }
