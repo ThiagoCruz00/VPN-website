@@ -1049,11 +1049,21 @@ footer {
 .comments-container > main {
   display: flex; /* Usa Flexbox para alinhar os artigos horizontalmente */
   overflow-x: auto; /* Permite rolagem horizontal */
-  scroll-snap-type: x mandatory; /* Alinhamento de snap horizontal obrigatório */
   -webkit-overflow-scrolling: touch; /* Suaviza a rolagem em dispositivos móveis */
+  scroll-snap-type: x mandatory; /* Alinhamento de snap horizontal obrigatório */
   gap: 20px; /* Espaçamento entre os artigos */
   padding: 10px 0; /* Adiciona espaçamento acima e abaixo do contêiner */
   align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+/* Adiciona um estilo visual de scrollbar para navegadores que suportam */
+.comments-container > main::-webkit-scrollbar {
+  height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+.comments-container > main::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Cor do "polegar" da barra de rolagem */
+  border-radius: 4px; /* Bordas arredondadas para o polegar */
 }
 
 /* Estilo para cada artigo */
@@ -1108,6 +1118,7 @@ footer {
   width: 20px; /* Largura fixa para a estrela */
   height: 20px; /* Altura fixa para a estrela */
 }
+
 
   /* .comments-container {
     display: flex;
