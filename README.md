@@ -14,5 +14,5 @@ Este projeto consiste em um site dedicado a serviços de VPN, projetado para ser
 
 ## Tecnologias Utilizadas
 
-- **HTML5:** Estruturação do conteúdo do site.
-- **CSS3:** Estilização e design responsivo do site.
+- **HTML:** Estruturação do conteúdo do site.
+- **CSS:** Estilização e design responsivo do site.
